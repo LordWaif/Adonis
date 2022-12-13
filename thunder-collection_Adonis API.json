@@ -1,0 +1,205 @@
+{
+  "client": "Thunder Client",
+  "collectionName": "Adonis API",
+  "dateExported": "2022-12-13T12:02:27.293Z",
+  "version": "1.1",
+  "folders": [
+    {
+      "_id": "586cfc57-39b8-4bfc-9e20-9d1e9b405cd2",
+      "name": "Moments",
+      "containerId": "",
+      "created": "2022-12-08T14:07:44.802Z",
+      "sortNum": 10000
+    },
+    {
+      "_id": "bd7d413c-d6a5-43cd-94d7-f999274e31af",
+      "name": "Insert A Moment",
+      "containerId": "586cfc57-39b8-4bfc-9e20-9d1e9b405cd2",
+      "created": "2022-12-08T14:08:19.150Z",
+      "sortNum": 20000
+    },
+    {
+      "_id": "94cb000b-d791-4fcb-ac17-fdb5a99e1322",
+      "name": "Get Moments",
+      "containerId": "586cfc57-39b8-4bfc-9e20-9d1e9b405cd2",
+      "created": "2022-12-13T11:13:17.392Z",
+      "sortNum": 30000
+    },
+    {
+      "_id": "94f68f72-5d00-452e-8c10-c47351d7ff71",
+      "name": "Delete A Moment",
+      "containerId": "586cfc57-39b8-4bfc-9e20-9d1e9b405cd2",
+      "created": "2022-12-13T11:13:33.343Z",
+      "sortNum": 40000
+    },
+    {
+      "_id": "afbf7742-140b-43fd-9fb1-50a35ac69067",
+      "name": "Put/Patch Moment",
+      "containerId": "586cfc57-39b8-4bfc-9e20-9d1e9b405cd2",
+      "created": "2022-12-13T11:24:43.844Z",
+      "sortNum": 50000
+    }
+  ],
+  "requests": [
+    {
+      "_id": "57fe8d00-1fd6-47ac-bc02-7424684320f9",
+      "colId": "124c975a-03a4-4fb7-8ab6-40dab06bb92d",
+      "containerId": "",
+      "name": "Rota Welcome",
+      "url": "",
+      "method": "GET",
+      "sortNum": 10000,
+      "created": "2022-12-08T13:26:57.624Z",
+      "modified": "2022-12-08T14:10:52.404Z",
+      "headers": [],
+      "params": [],
+      "tests": []
+    },
+    {
+      "_id": "d896fdb8-e3de-422c-a69e-652cf2b2415f",
+      "colId": "124c975a-03a4-4fb7-8ab6-40dab06bb92d",
+      "containerId": "94cb000b-d791-4fcb-ac17-fdb5a99e1322",
+      "name": "Get All",
+      "url": "/moments",
+      "method": "GET",
+      "sortNum": 10000,
+      "created": "2022-12-13T11:02:12.847Z",
+      "modified": "2022-12-13T11:13:20.391Z",
+      "headers": [],
+      "params": [],
+      "tests": []
+    },
+    {
+      "_id": "64fcf956-47b3-45fd-acba-d5a57e4f3335",
+      "colId": "124c975a-03a4-4fb7-8ab6-40dab06bb92d",
+      "containerId": "94f68f72-5d00-452e-8c10-c47351d7ff71",
+      "name": "Delete",
+      "url": "/moments/2",
+      "method": "DELETE",
+      "sortNum": 10000,
+      "created": "2022-12-13T11:11:31.456Z",
+      "modified": "2022-12-13T11:13:36.529Z",
+      "headers": [],
+      "params": [],
+      "tests": []
+    },
+    {
+      "_id": "0708c955-8426-4f65-96e5-c7123fe7b47e",
+      "colId": "124c975a-03a4-4fb7-8ab6-40dab06bb92d",
+      "containerId": "bd7d413c-d6a5-43cd-94d7-f999274e31af",
+      "name": "Insert",
+      "url": "/moments",
+      "method": "POST",
+      "sortNum": 20000,
+      "created": "2022-12-08T14:08:28.239Z",
+      "modified": "2022-12-13T11:02:44.126Z",
+      "headers": [],
+      "params": [],
+      "body": {
+        "type": "formdata",
+        "raw": "",
+        "form": [
+          {
+            "name": "title",
+            "value": "Algo sobre isso 2"
+          },
+          {
+            "name": "description",
+            "value": "Sobre algo descritivo"
+          }
+        ],
+        "files": [
+          {
+            "name": "image",
+            "value": "/home/lordwaif/cursos/lion-3576045__480.jpg"
+          }
+        ]
+      },
+      "tests": []
+    },
+    {
+      "_id": "8f665a0b-dd30-4310-9c6c-d69b9d99870e",
+      "colId": "124c975a-03a4-4fb7-8ab6-40dab06bb92d",
+      "containerId": "94cb000b-d791-4fcb-ac17-fdb5a99e1322",
+      "name": "Get By ID",
+      "url": "/moments/1",
+      "method": "GET",
+      "sortNum": 20000,
+      "created": "2022-12-13T11:06:49.219Z",
+      "modified": "2022-12-13T11:13:22.264Z",
+      "headers": [],
+      "params": [],
+      "tests": []
+    },
+    {
+      "_id": "50957e88-3596-4b54-aa76-077d31aec0c7",
+      "colId": "124c975a-03a4-4fb7-8ab6-40dab06bb92d",
+      "containerId": "afbf7742-140b-43fd-9fb1-50a35ac69067",
+      "name": "Put Moment",
+      "url": "/moments/4",
+      "method": "PATCH",
+      "sortNum": 70000,
+      "created": "2022-12-13T11:24:52.047Z",
+      "modified": "2022-12-13T11:39:12.761Z",
+      "headers": [],
+      "params": [],
+      "body": {
+        "type": "formdata",
+        "raw": "",
+        "form": [
+          {
+            "name": "title",
+            "value": "Atualizad com put"
+          },
+          {
+            "name": "description",
+            "value": "dessa forma isso acontece",
+            "isDisabled": true
+          }
+        ]
+      },
+      "tests": []
+    },
+    {
+      "_id": "7f7d9b45-6448-46df-9ecf-fe78cd5dc032",
+      "colId": "124c975a-03a4-4fb7-8ab6-40dab06bb92d",
+      "containerId": "afbf7742-140b-43fd-9fb1-50a35ac69067",
+      "name": "Put Moment Image",
+      "url": "/moments/4",
+      "method": "PUT",
+      "sortNum": 80000,
+      "created": "2022-12-13T11:40:12.458Z",
+      "modified": "2022-12-13T11:40:42.254Z",
+      "headers": [],
+      "params": [],
+      "body": {
+        "type": "formdata",
+        "raw": "",
+        "form": [
+          {
+            "name": "title",
+            "value": "Atualizad com put"
+          },
+          {
+            "name": "description",
+            "value": "dessa forma isso acontece"
+          }
+        ],
+        "files": [
+          {
+            "name": "image",
+            "value": "/home/lordwaif/cursos/lion-3576045__480.jpg"
+          }
+        ]
+      },
+      "tests": []
+    }
+  ],
+  "settings": {
+    "headers": [],
+    "tests": [],
+    "options": {
+      "baseUrl": "http://localhost:3333/api"
+    }
+  }
+}

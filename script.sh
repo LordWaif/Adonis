@@ -1,6 +1,7 @@
 npm i @adonisjs/lucid
 node ace configure @adonisjs/lucid
 node ace migration:run
+node ace serve --watch
 node ace
 node ace migration:fresh
 node ace make:controller Moment
