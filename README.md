@@ -5,6 +5,12 @@
 #### Rodar json server
 ``node ace serve --watch``
 
+### Cria model
+``node ace make:model <modelo> -m``
+
+### Criar controller
+``node ace make:controller <controller>``
+
 ### Listar
 * Comandos:
 ``node ace``
